@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "plugins": [
+    {
+      "id": "api-client",
+      "name": "FlyEnv API Client",
+      "version": "0.1.0",
+      "description": {
+        "en": "Test your app's HTTP APIs inside FlyEnv with saved requests, environments, authentication and response checks."
+      },
+      "author": "mspacemedia",
+      "module": {
+        "typeFlag": "api-client",
+        "moduleType": "other",
+        "label": "API Client",
+        "asideIndex": 25,
+        "isService": false,
+        "isTray": false,
+        "platform": [
+          "Windows",
+          "macOS",
+          "Linux"
+        ],
+        "preferredModuleType": "apiTools"
+      },
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "artifact": {
+        "url": "https://github.com/mspacemedia/flyenv-api-client/releases/download/v0.1.0/api-client-0.1.0.flyenv-plugin",
+        "sha256": "6d5bd0dda3ee2bd4b1c8572f925ab03e8aecda9d79d0b80281bd76c352331d6b"
+      },
+      "official": false
+    },
+    {
+      "id": "mocktoon",
+      "name": "FlyEnv Mocktoon",
+      "version": "0.1.1",
+      "description": {
+        "en": "Local mock APIs powered by Mockoon, with editable MockShip, MockPurchase, MockSend, MockStock and MockAuth examples.",
+        "zh": "基于 Mockoon 的本地模拟 API，包含可编辑的发货、购买、发送、库存和认证示例。"
+      },
+      "author": "mspacemedia",
+      "homepage": "https://github.com/mspacemedia/flyenv-mocktoon",
+      "module": {
+        "typeFlag": "mocktoon",
+        "moduleType": "other",
+        "label": "Mocktoon",
+        "asideIndex": 24,
+        "isService": true,
+        "isTray": true,
+        "isOnlyRunOne": true,
+        "platform": [
+          "Windows",
+          "macOS",
+          "Linux"
+        ],
+        "preferredModuleType": "apiTools"
+      },
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "artifact": {
+        "url": "https://github.com/mspacemedia/flyenv-mocktoon/releases/download/v0.1.1/mocktoon-0.1.1.flyenv-plugin",
+        "sha256": "6ec8ccc6e4f87f076fe6abcc0eba755e45bf8e7fcba8d554d0784a72cf0fa3ec"
+      },
+      "official": false
+    },
+    {
+      "id": "stripe",
+      "name": "FlyEnv Stripe CLI",
+      "version": "0.2.3",
+      "description": {
+        "en": "Stripe CLI for FlyEnv: browser login, local test webhook forwarding, sample events, a CLI terminal, and test products, prices, customers and subscriptions.",
+        "zh": "安装 Stripe CLI，通过浏览器连接账户，并将测试 Webhook 转发到本地 FlyEnv 站点。"
+      },
+      "author": "mspacemedia",
+      "homepage": "https://github.com/mspacemedia/flyenv-stripe-cli",
+      "module": {
+        "typeFlag": "stripe",
+        "moduleType": "networkTunnel",
+        "label": "Stripe CLI",
+        "asideIndex": 23,
+        "isService": true,
+        "isTray": true,
+        "platform": [
+          "Windows",
+          "macOS",
+          "Linux"
+        ],
+        "preferredModuleType": "apiTools"
+      },
+      "platforms": [
+        "Windows",
+        "macOS",
+        "Linux"
+      ],
+      "artifact": {
+        "url": "https://github.com/mspacemedia/flyenv-stripe-cli/releases/download/v0.2.3/stripe-0.2.3.flyenv-plugin",
+        "sha256": "e9fa721c800440ae2f46063d5c0930c7772b3de9bf76754de63e8bb39184d8a0"
+      },
+      "official": false
+    }
+  ]
+}
