@@ -73,7 +73,7 @@
     {
       "id": "stripe",
       "name": "FlyEnv Stripe CLI",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "description": {
         "en": "Stripe CLI for FlyEnv: browser login, local test webhook forwarding, sample events, a CLI terminal, and test products, prices, customers and subscriptions.",
         "zh": "安装 Stripe CLI，通过浏览器连接账户，并将测试 Webhook 转发到本地 FlyEnv 站点。"
@@ -100,8 +100,8 @@
         "Linux"
       ],
       "artifact": {
-        "url": "https://github.com/mspacemedia/flyenv-stripe-cli/releases/download/v0.3.5/stripe-0.3.5.flyenv-plugin",
-        "sha256": "b5f2a99823141d8d18a8644f9bd0fc6a12f6200b13594a83f64f6ad9661f4f56"
+        "url": "https://github.com/mspacemedia/flyenv-stripe-cli/releases/download/v0.3.6/stripe-0.3.6.flyenv-plugin",
+        "sha256": "49de3ec7d2cef6505ed506899471440d8126e1ef6949e43486f67e2595336027"
       },
       "official": false
     }
